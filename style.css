@@ -116,7 +116,7 @@ body {
 
         .bean3 {
             bottom: 0%;
-            left: 55%;
+            left: 45%;
             width: 110px;
             transform: rotate(-27deg);
             animation: float-rotate-3 8s ease-in-out infinite;
@@ -140,8 +140,8 @@ body {
 
         .bean6 {
             width: 90px;
-            top: 35%;
-            right: 41%;
+            top: 20%;
+            right: 48%;
             transform: rotate(-30deg);
             animation: float-rotate-6 7.5s ease-in-out infinite;
         }
@@ -177,7 +177,7 @@ body {
 
         .caramel {
             bottom: 30%;
-            right: 41%;
+            right: 50%;
             width: 90px;
             z-index: 2;
             animation: float-gentle-4 6s ease-in-out infinite;
@@ -189,17 +189,15 @@ body {
             left: 5%;
             top: 25%;
             z-index: 5;
-            max-width: 45%;
+            max-width: 50%;
         }
 
         .hero-title {
-            font-size: 4rem;
+            font-size: 3.5rem;
             font-weight: bold;
             color: #3b2314;
             font-family: 'Arial', sans-serif;
             line-height: 0.9;
-            margin: 0;
-            text-transform: lowercase;
         }
 
         .static-line {
@@ -218,7 +216,7 @@ body {
             margin-left: 3px;
         }
 
-        .subtitle {
+        .sous-titres {
             font-size: 1.1rem;
             color: #5d4e42;
             margin-top: 20px;

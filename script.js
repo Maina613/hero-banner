@@ -1,7 +1,6 @@
 const phrases = [
             "fous du goût",
             "lève-tôt",
-            "grinders addicts",
             "mauvais dormeurs",
             "belles matinées",
             "nuits blanches",
