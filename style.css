@@ -40,10 +40,25 @@ nav a:hover {
     color: #8B4513;
 }
 
-.icons img {
-    width: 25px;
-    margin-left: 15px;
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
+
+.icons img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    display: block;
+}
+
+.icons img[alt="recherche"],
+.icons img[alt="panier"] {
+    width: 38px;
+    height: 38px;
+}
+
 
 .hero {
     position: relative;
@@ -89,7 +104,6 @@ nav a:hover {
     z-index: 3;
 }
 
-/* Animations pour les grains de café */
 .bean {
     position: absolute;
     width: 40px;
@@ -146,7 +160,6 @@ nav a:hover {
     animation: float-rotate-6 7.5s ease-in-out infinite;
 }
 
-/* Animations pour les autres éléments */
 .element {
     position: absolute;
 }
@@ -159,7 +172,7 @@ nav a:hover {
     animation: float-gentle-1 8s ease-in-out infinite;
 }
 
-.walnut {
+.noix {
     bottom: -4%;
     right: 27%;
     width: 120px;
@@ -183,7 +196,6 @@ nav a:hover {
     animation: float-gentle-4 6s ease-in-out infinite;
 }
 
-/* Zone de texte comme dans l'image Noka */
 .typing-zone {
     position: absolute;
     left: 5%;
@@ -192,7 +204,7 @@ nav a:hover {
     max-width: 50%;
 }
 
-.hero-title {
+.titre {
     font-size: 3.5rem;
     font-weight: bold;
     color: #3b2314;
@@ -225,7 +237,6 @@ nav a:hover {
     max-width: 80%;
 }
 
-/* Animations de lévitation et rotation harmonieuses pour les grains */
 @keyframes float-rotate-1 {
 
     0%,
@@ -298,7 +309,6 @@ nav a:hover {
     }
 }
 
-/* Animations douces pour les autres éléments */
 @keyframes float-gentle-1 {
 
     0%,
@@ -359,7 +369,6 @@ nav a:hover {
     }
 }
 
-/* Animation de lévitation pour les grains dans la navbar */
 .navbar .bean1 {
     animation: navbar-float-1 5s ease-in-out infinite;
 }
